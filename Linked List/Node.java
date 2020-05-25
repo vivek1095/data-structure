@@ -4,6 +4,7 @@ public class Node<T>{
 
     Node(T value){
         this.value = value;
+        this.next = null;
     }
 
     public T getValue(){
